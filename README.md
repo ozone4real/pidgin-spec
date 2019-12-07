@@ -37,9 +37,13 @@ PidginSpec.describe 'Pidgin test' do
   describe "Ends with test" do
     e_go "test say array or string go end with some kine values" do
       expect_say([2, 3, 8, 20, 15]).go end_with(20, 15)
-      expect_say("Pidgin_test).go end_with('est')
+      expect_say("Pidgin_test).go end_with('ast')
     end
   end
 end
 ```
+Output of the above tests
+![tests output](https://res.cloudinary.com/dgo3gjxnl/image/upload/v1575716904/Screen_Shot_2019-12-07_at_12.03.36_PM_qgqafq.png
+)
+
 Run the test file with ruby test_file.rb
