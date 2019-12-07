@@ -32,5 +32,14 @@ PidginSpec.describe 'Pidgin test' do
       expect_say(str.split(' ')).go be(Array)
     end
   end
-end```
+  
+  # test for an array or string that ends with certain values/characters
+  describe "Ends with test" do
+    e_go "test say array or string go end with some kine values" do
+      expect_say([2, 3, 8, 20, 15).go end_with(20, 15)
+      expect_say("Pidgin_test).go end_with('est')
+    end
+  end
+end
+```
 Run the test file with ruby test_file.rb
