@@ -36,7 +36,7 @@ PidginSpec.describe 'Pidgin test' do
   # test for an array or string that ends with certain values/characters
   describe "Ends with test" do
     e_go "test say array or string go end with some kine values" do
-      expect_say([2, 3, 8, 20, 15).go end_with(20, 15)
+      expect_say([2, 3, 8, 20, 15]).go end_with(20, 15)
       expect_say("Pidgin_test).go end_with('est')
     end
   end
