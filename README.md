@@ -6,7 +6,9 @@ Decided to apply what I have learnt from Meta-Programming in Ruby. This is what 
 
 ### Installation
 To install run:
-```gem install pidgin_spec```
+```
+gem install pidgin_spec
+```
 
 ### Basic Usage
 ```ruby
