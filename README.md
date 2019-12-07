@@ -13,6 +13,7 @@ gem install pidgin_spec
 ### Basic Usage
 ```ruby
 require 'pidgin_spec'
+
 PidginSpec.describe 'Pidgin test' do
   num = 30
   describe "Multiplication test" do
