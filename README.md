@@ -2,8 +2,7 @@
 Simple DSL for writing Ruby unit tests in Pidgin language. Developed with pure Ruby
 
 #### JUST FOR FUN
-Decided to apply what I have learnt from Meta-Programming in Ruby. This is what I could come up with for now. Would work on more serious stuff later 🤪). Inspired by RSPEC
-
+Decided to apply what I have learnt from Meta-Programming in Ruby. This is what I could come up with.
 ### Installation
 To install run:
 ```
